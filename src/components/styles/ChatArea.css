@@ -261,7 +261,7 @@
     .chat-area {
         left: 64px;
         top: 0;
-        bottom: 140px;
+        bottom: 100px;
         padding: 32px;
     }
 
@@ -278,7 +278,7 @@
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
     .chat-area {
-        background-color: rgb(43, 41, 41);
+        background-color: #000;
         color: #fff;
     }
 

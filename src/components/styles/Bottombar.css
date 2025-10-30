@@ -209,15 +209,15 @@ textarea::-webkit-scrollbar-thumb {
 /* Dark mode */
 @media (prefers-color-scheme: dark){
     .bottom-bar {
-        background-color: rgb(43, 41, 41);
+        background-color:  rgb(15, 15, 17);
     }
 
     .attached-files {
-        background-color: rgba(43, 41, 41, 0.9);
+        background-color:  rgb(15, 15, 17);
     }
 
     .file-chip {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color:  rgb(15, 15, 17);
         color: #fff;
     }
 
@@ -230,7 +230,7 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .input-wrapper {
-        background-color: rgba(60, 58, 58, 0.95);
+        background-color:  rgb(29, 29, 37);
         border: 1px solid rgba(255, 255, 255, 0.08);
     }
 

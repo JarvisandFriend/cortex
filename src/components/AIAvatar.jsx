@@ -6,12 +6,8 @@ const AIAvatar = ({ isLoading = false, isStreaming = false }) => {
            <svg viewBox="0 0 100 100" className="avatar-svg">
     <defs>
         <linearGradient id="coreGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#667eea" />
-            <stop offset="33%" stopColor="#764ba2" />
-            <stop offset="33%" stopColor="#f093fb" />
-            <stop offset="66%" stopColor="#4facfe" />
-            <stop offset="66%" stopColor="#00f2fe" />
-            <stop offset="100%" stopColor="#43e97b" />
+            <stop offset="0%" stopColor="#3b82f6" />
+            <stop offset="100%" stopColor="#3b82f6" />
         </linearGradient>
     </defs>
     <circle 

@@ -99,13 +99,13 @@
 
 @media (prefers-color-scheme: dark){
     .header-mobile {
-        background-color: rgb(43, 41, 41);
+        background-color:  rgb(15, 15, 17);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
     }
 
     .header-desktop {
-        background-color: rgb(43, 41, 41);
+        background-color:  rgb(15, 15, 17);
         border-right: 1px solid rgba(255, 255, 255, 0.1);
     }
     
