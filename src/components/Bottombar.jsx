@@ -18,9 +18,23 @@ function Bottombar(){
 
     const handleSubmit = () => {
         if (message.trim() || attachedFiles.length > 0) {
-            console.log("Sending:", { message, files: attachedFiles });
+            // Dispatch custom event for ChatArea to listen
+            const event = new CustomEvent('sendMessage', {
+                detail: {
+                    message: message,
+                    files: attachedFiles
+                }
+            });
+            window.dispatchEvent(event);
+
+            // Clear input
             setMessage("");
             setAttachedFiles([]);
+            
+            // Reset textarea height
+            if (textareaRef.current) {
+                textareaRef.current.style.height = 'auto';
+            }
         }
     };
 
